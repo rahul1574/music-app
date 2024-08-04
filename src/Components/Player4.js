@@ -12,39 +12,8 @@ const AudioPlayer = () => {
     const [duration, setDuration] = useState(0);
     const [loopEnabled, setLoopEnabled] = useState(false);
     const playlist = [
-        { title: "NEE SINGAM DHAN",cast:"A.R. Rahman,Sid Sriram", image:"imagec1.jpeg",src: "songc1.mp3",lyrics:`
-        Suttri nindru oorae paarkka
-Kalam kaanban
-Punnagaiyil seanai vaala
-Ranam kaanban
-
-Un perai saaikka
-Palayanigal serntha poodhae
-Nee singam dhan
-Andha aagayam poodhaatha
-Paravai ondru
-Nadhi kannadi paarthu
-Manam nirainthathu indru
-
-Kadalal theeratha
-Erumbin dhaagangal
-Nilaiyin vaeladum
-Panithuli theerkkum
-
-Theeyai nee pagirnthaalum
-Rendaai vaalum
-Ivanum andha thee
-Poola thaan
-
-Andha aagayam poodhaatha
-Paravai ondru
-Nadhi kannadi paarthu
-Manam nirainthathu indru
-
-Kadalal theeratha
-Erumbin dhaagangal
-Nilaiyin vaeladum
-Panithuli theerkkum`},
+        { title: "LOVE MASHUP",cast:" Arijit singh, Vishal Mishra, b praak, Sachet-parampara", image:"imagep41.jpeg",src: "songp41.mpeg",lyrics:`
+        No lyrics found😥`},
         // Add more songs as needed
     ];
 
