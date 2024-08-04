@@ -10,7 +10,8 @@ function Forgot() {
         'rahulmudavath333@gmail.com': 'nani@123',
         'harshithareddyy2@gmail.com':'Harshitha@123',
         'ashreyasureddy2@gmail.com':'Ashreya@123',
-        'mahesh1207k@gmail.com':'123456789'
+        'mahesh1207k@gmail.com':'123456789',
+        'navyasri13112004@gmail.com':'navya@13112004',
         // Add more mappings as needed
     };
 
