@@ -34,7 +34,7 @@ const handleElement2Change = (event) => {
 
 const checkElements = () => {
   // Check if both elements are selected and in correct order
-  return element1 !== '' && element2 !== '' && element1Index !== -1 && element2Index !== -1 && ((element1Index === 0 && element2Index === 0) || (element1Index===1 && element2Index===1) || (element1Index===2 && element2Index===2)|| (element1Index===3 && element2Index===3));
+  return element1 !== '' && element2 !== '' && element1Index !== -1 && element2Index !== -1 && ((element1Index === 0 && element2Index === 0) || (element1Index===1 && element2Index===1) || (element1Index===2 && element2Index===2)||(element1Index===3 && element2Index===3));
 };
 
 const handleCheck = () => {
