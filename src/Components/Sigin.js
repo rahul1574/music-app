@@ -2,8 +2,8 @@ import React,{useState} from 'react';
 import{Link,useNavigate} from "react-router-dom";
 export default function Signin() {
 // Define separate lists for element1 and element2
-const element1List = ['apple','Rahul','Ashreya'];
-const element2List = ['date','nani@123','Ashreya@123'];
+const element1List = ['apple','Rahul','Ashreya','Mahesh'];
+const element2List = ['date','nani@123','Ashreya@123','123456789'];
 
 const [element1Index, setElement1Index] = useState(-1);
 const [element2Index, setElement2Index] = useState(-1);
@@ -34,7 +34,7 @@ const handleElement2Change = (event) => {
 
 const checkElements = () => {
   // Check if both elements are selected and in correct order
-  return element1 !== '' && element2 !== '' && element1Index !== -1 && element2Index !== -1 && ((element1Index === 0 && element2Index === 0) || (element1Index===1 && element2Index===1) || (element1Index===2 && element2Index===2));
+  return element1 !== '' && element2 !== '' && element1Index !== -1 && element2Index !== -1 && ((element1Index === 0 && element2Index === 0) || (element1Index===1 && element2Index===1) || (element1Index===2 && element2Index===2)|| (element1Index===3 && element2Index===3));
 };
 
 const handleCheck = () => {
