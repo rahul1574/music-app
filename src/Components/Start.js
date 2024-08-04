@@ -41,8 +41,8 @@ function Start() {
       //  height={windowdimension.height}
       //  tweenDuration={1000}
       //  />}
-    //    <h2 id='wish' style={{display:'none',color:'white'}}>HAPPY FRIENDSHIP DAY!💙</h2>
-    // </div>
+       // <h2 id='wish' style={{display:'none',color:'white'}}>HAPPY FRIENDSHIP DAY!💙</h2>
+    </div>
     </>
   )
 }
