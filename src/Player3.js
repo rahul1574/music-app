@@ -1,4 +1,4 @@
-import './Style.css';
+// import './Style.css';
 import{Link} from "react-router-dom";
 import React, { useRef, useState, useEffect } from 'react';
 // import AudioPlay from 'react-h5-audio-player';
@@ -12,39 +12,39 @@ const AudioPlayer = () => {
     const [duration, setDuration] = useState(0);
     const [loopEnabled, setLoopEnabled] = useState(false);
     const playlist = [
-        { title: "HOSAAHOREY",cast:"Ananth Sreeram,K.K., Lesle Lewis", image:"image5.jpeg",src: "song6.mp3",lyrics:`
-        Hosahare..... Hosahore.....
-        Saadhinche sattuva unnadhi gundelalo..
-        Preminche mettani manasula moolalalo...
-        Maa paata aksharamodalaka vinnado....
-        Painunna jacksonu kindhiki diguthado
-        Hosahare hosahore hey....
-        Hosahare..... Hosahore.....
-        Gundello na paata guitar ai mogindhe...
-        Yeye yayiye yehe yayiye.....
-        Chetullo na raatha chappatlai cherindhe..
-        Yehe yayiye yehe yayiye.....
-        Kashtam neeku nesthamavaga..
-        Vijayam ninnu ishtapadadha..
-        Nee sangeetham nee radham
-        Mundhuku saagupadha...
-        Premanna aayudham toduga undhi kada...
-        Hosaho hosaho hosahore hosaho... re....
-        Ye desam lo aina sandesam maa paate
-        Yeye yayiye yehe he hey...
-        Ye vedika pai aina veduka ra ma aate
-        Yehe yayiye yehe he he hey...
-        Ningi nela nadi madhyana..
-        Ponge ganga ma bhavana... hey
-        Pedilla gonthulu kalasina kaalam idhe...
-        Pedala vedini chaatina vela idhe he he he he hey...
-        Hosahare.... hosahore....
-        Saadhinche sattuva unnadhi gundelalo..
-        Preminche mettani manasula moolalalo..
-        Maa paata aksharamodalaka vinnado...
-        Painunna jacksonu kindhiki diguthado..
-        Hosahare.... hosaho hosaho hosaho hosaho
-        Hosaho hosaho hosaho hosaho hosaho...`},
+        { title: "NEE SINGAM DHAN",cast:"A.R. Rahman,Sid Sriram", image:"imagec1.jpeg",src: "songc1.mp3",lyrics:`
+        Suttri nindru oorae paarkka
+Kalam kaanban
+Punnagaiyil seanai vaala
+Ranam kaanban
+
+Un perai saaikka
+Palayanigal serntha poodhae
+Nee singam dhan
+Andha aagayam poodhaatha
+Paravai ondru
+Nadhi kannadi paarthu
+Manam nirainthathu indru
+
+Kadalal theeratha
+Erumbin dhaagangal
+Nilaiyin vaeladum
+Panithuli theerkkum
+
+Theeyai nee pagirnthaalum
+Rendaai vaalum
+Ivanum andha thee
+Poola thaan
+
+Andha aagayam poodhaatha
+Paravai ondru
+Nadhi kannadi paarthu
+Manam nirainthathu indru
+
+Kadalal theeratha
+Erumbin dhaagangal
+Nilaiyin vaeladum
+Panithuli theerkkum`},
         // Add more songs as needed
     ];
 
@@ -179,7 +179,7 @@ const AudioPlayer = () => {
                            {isPlaying ? (
                            <button  className="songbtn" onClick={pauseHandler} disabled={currentSongIndex === null}>⏸️</button>
                            ) : (
-                           <button  className="songbtn" sonClick={playHandler} disabled={currentSongIndex === null}>▶️</button>
+                           <button  className="songbtn" onClick={playHandler} disabled={currentSongIndex === null}>▶️</button>
                            )}
                            {/* <button  className="songbtn"onClick={handleplay} disabled={currentSongIndex === null}>⏹️</button> */}
                            <button  className="songbtn1"onClick={nextSongHandler} disabled={currentSongIndex === null}>⏭</button>
