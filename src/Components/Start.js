@@ -6,24 +6,24 @@ function Start() {
     const removestart=()=>{
         document.getElementById('start').style.display='none';
     }
-    const [windowdimension,setdimension]=useState({width:window.innerWidth, height:window.innerHeight});
-    const [btn,setbtn]=useState(false)
-    const detectsize=()=>{
-        setdimension({width:window.innerWidth, height:window.innerHeight})
-    }
+    // const [windowdimension,setdimension]=useState({width:window.innerWidth, height:window.innerHeight});
+    // const [btn,setbtn]=useState(false)
+    // const detectsize=()=>{
+    //     setdimension({width:window.innerWidth, height:window.innerHeight})
+    // }
 
-    useEffect(()=>{
-        window.addEventListener('resize',detectsize);
-        return()=>{
-            window.removeEventListener('resize',detectsize);
-        }
-    },[windowdimension]);
-    const display=()=>{
-      document.getElementById('wow').style.display='none'
-      setbtn(!btn)
-      document.getElementById('wish').style.display='block'
+    // useEffect(()=>{
+    //     window.addEventListener('resize',detectsize);
+    //     return()=>{
+    //         window.removeEventListener('resize',detectsize);
+    //     }
+    // },[windowdimension]);
+    // const display=()=>{
+    //   document.getElementById('wow').style.display='none'
+    //   setbtn(!btn)
+    //   document.getElementById('wish').style.display='block'
 
-    }
+    // }
 
   return (
     <>
@@ -41,8 +41,8 @@ function Start() {
       //  height={windowdimension.height}
       //  tweenDuration={1000}
       //  />}
-       <h2 id='wish' style={{display:'none',color:'white'}}>HAPPY FRIENDSHIP DAY!💙</h2>
-    </div>
+    //    <h2 id='wish' style={{display:'none',color:'white'}}>HAPPY FRIENDSHIP DAY!💙</h2>
+    // </div>
     </>
   )
 }
