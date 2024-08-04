@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 // import React,{useState,useEffect} from 'react'
-// import{Link} from "react-router-dom";
-import ReactConfetti from 'react-confetti'
+import{Link} from "react-router-dom";
+// import ReactConfetti from 'react-confetti'
 function Start() {
     const removestart=()=>{
         document.getElementById('start').style.display='none';
