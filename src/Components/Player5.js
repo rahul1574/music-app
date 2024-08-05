@@ -12,7 +12,8 @@ const AudioPlayer = () => {
     const [duration, setDuration] = useState(0);
     const [loopEnabled, setLoopEnabled] = useState(false);
     const playlist = [
-        { title: "HOSAAHOREY",cast:"Ananth Sreeram,K.K., Lesle Lewis", image:"image5.jpeg",src: "song6.mp3",lyrics:`
+        { title: "NEETI MULLI",cast:"Sagar, Sumangaly", image:"imagep51.jpg",src: "songp51.mp3",lyrics:''},
+            {title: "HOSAAHOREY",cast:"Ananth Sreeram,K.K., Lesle Lewis", image:"image5.jpeg",src: "song6.mp3",lyrics:`
         Hosahare..... Hosahore.....
         Saadhinche sattuva unnadhi gundelalo..
         Preminche mettani manasula moolalalo...
