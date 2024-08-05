@@ -12,7 +12,17 @@ const AudioPlayer = () => {
     const [duration, setDuration] = useState(0);
     const [loopEnabled, setLoopEnabled] = useState(false);
     const playlist = [
-        { title: "NEETI MULLI",cast:"Sagar, Sumangaly", image:"imagep51.jpg",src: "songp51.mp3",lyrics:''},
+        { title: "NEETI MULLI",cast:"Sagar, Sumangaly", image:"imagep51.jpg",src: "songp51.mp3",lyrics:`Neeti mullai.. nannu gillee.. vellipoke.. malle vaanaa
+Jantanalle.. andamalle.. undipove.. vendi vaanaa
+Tenela chinukulu.. chavi choopinchee
+Kannula daaham.. inkaa penchee
+Kammani kalalemo.. anipinchee
+Kanumarugai.. karigaavaa.. siri vaanaa
+Nuvvostaanante.. nenoddantaanaa
+Nuvvostaanante.. nenoddantaanaa
+Nuvvostaanante.. hey.. nenoddantaanaa.. haa
+Nuvvostaanante.. hey.. nenoddantaanaa.. haa
+`},
             {title: "HOSAAHOREY",cast:"Ananth Sreeram,K.K., Lesle Lewis", image:"image5.jpeg",src: "song6.mp3",lyrics:`
         Hosahare..... Hosahore.....
         Saadhinche sattuva unnadhi gundelalo..
