@@ -35,7 +35,7 @@ function Start() {
          <Link to='/signup' onClick={removestart}><button className='signin'style={{height:'50px',width:'200px',margin:'10px',background:'white',border:'none',color:'black',borderRadius:'20px'}}>SIGNUP</button></Link>
          <Link to='/signin' onClick={removestart}><button className='signin'style={{height:'50px',width:'200px',margin:'10px',background:'#14213d',border:'none',color:'white',borderRadius:'20px'}}>SIGNIN</button></Link>
       </div>
-      <button id='wow' onClick={display} style={{height:'50px',width:'180px',borderRadius:'10px',fontSize:'17px',border:'none'}}>5-AUG-2024 🎁</button>
+      <button id='wow' onClick={display} style={{height:'50px',width:'180px',borderRadius:'10px',fontSize:'17px',border:'none', display:'none'}}>5-AUG-2024 🎁</button>
        {btn && <ReactConfetti
        width={windowdimension.width}
        height={windowdimension.height}
