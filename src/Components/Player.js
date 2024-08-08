@@ -12,7 +12,7 @@ const AudioPlayer = () => {
     const [duration, setDuration] = useState(0);
     const [loopEnabled, setLoopEnabled] = useState(false);
     const playlist = [
-        {title: "EKKADA EKKADA",cast:" S P Charan, Harini",image:"imagep11.jpeg",src: "songp11.mp3",lyrics:`
+        {title: "EKKADA EKKADA",cast:" S P Charan, Harini",image:"imagep111.jpeg",src: "songp11.mp3",lyrics:`
 Ekkada.. ekkada.. ekkada.. undo taarakaa
 
 Naalo.. ukkiri bikkiri oohalu repe gopikaa
