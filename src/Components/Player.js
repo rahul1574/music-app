@@ -12,7 +12,149 @@ const AudioPlayer = () => {
     const [duration, setDuration] = useState(0);
     const [loopEnabled, setLoopEnabled] = useState(false);
     const playlist = [
-        { title: "HOSAAHOREY",cast:"Ananth Sreeram,K.K., Lesle Lewis", image:"image5.jpeg",src: "song6.mp3",lyrics:`
+        {title: "EKKADA EKKADA",cast:" S P Charan, Harini",image:"imagep11.jpeg",src: "songp11.mp3",lyrics:`
+Ekkada.. ekkada.. ekkada.. undo taarakaa
+
+Naalo.. ukkiri bikkiri oohalu repe gopikaa
+
+Tuntari.. tuntari.. tuntari.. choopulu chaalikaa
+
+Oho.. allari.. allari.. allari.. aasalu repakaa
+
+Naa kosame talukkannado..
+
+naa perune pilustunnado
+
+Poovaanagaa kurustunnadee..
+
+naa choopulo merustunnadee
+
+E oore andamaa..
+
+aachookee andumaa
+
+Kavvinche chandramaa..
+
+doboochee chaalammaa
+
+Ekkada.. ekkada.. ekkada.. undo taarakaa
+
+Oho.. allari.. allari.. allari.. aasalu repakaa
+
+Kulukulo..
+
+aa melikalu..
+
+meghalalo merupuloo
+
+Palukulo..
+
+aa pedavulu..
+
+mana telugu raachilakaloo
+
+Padunulo..
+
+aa choopulu..
+
+churukaina churakattuloo
+
+Parugulo..
+
+aa adugulu..
+
+godaarilo varadaloo
+
+Naa gundelo.. ado maadiree..
+
+nimpeyyake.. sudhaa maadhuree
+
+Naa kallalo.. kalala pandiree..
+
+alleyakoyi mahaa pokiree
+
+Mabbullo daagundee..
+
+tanavaipe laagindee
+
+Siggalle taakindee..
+
+buggallo paakindee
+
+Oho.. tuntari.. tuntari.. tuntari.. choopulu chaalikaa
+
+Evvaroo..
+
+nannadagare..
+
+atagaadi roopentanee
+
+Adigite..
+
+chupinchanaa..
+
+niluvettu chirunavvunee
+
+Merupunee..
+
+toli chinukunee..
+
+kalagalipi choodaalanee
+
+Evarikee..
+
+anipinchinaa..
+
+choodocchu naa cheliyanee
+
+Ennaalilaa..
+
+tanostaadanee..
+
+choodalataa..
+
+pratee daarinee
+
+E totalo tanundonanee..
+
+etoo pampanoo naa manasunee
+
+Enaadoo intidigaa..
+
+kangaare eruganugaa
+
+Aunannaa kaadannaa..
+
+gundelakoo kudurundaa
+
+Tuntari.. tuntari.. tuntari.. choopulu chaalikaa
+
+Oho.. allari.. allari.. allari.. aasalu repakaa
+
+Ekkada.. ekkada.. ekkada.. undo taarakaa
+
+Naalo.. ukkiri bikkiri oohalu repe gopikaa
+
+Poovaanagaa kurustunnadee..
+
+naa choopulo merustunnadee
+
+Naa kosame talukkannado..
+
+naa perune pilustunnado
+
+Kavvinche chandramaa..
+
+doboochee chaalammaa
+
+E oore andamaa..
+
+aachookee andumaa
+
+Akkada.. akkada.. akkada.. undaa tarakaa
+
+Adigo.. thellani mabbula madhyana.. daagee daagakaa`,
+            title: "HOSAAHOREY",cast:"Ananth Sreeram,K.K., Lesle Lewis", image:"image5.jpeg",src: "song6.mp3",lyrics:`
         Hosahare..... Hosahore.....
         Saadhinche sattuva unnadhi gundelalo..
         Preminche mettani manasula moolalalo...
