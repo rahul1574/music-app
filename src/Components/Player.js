@@ -12,6 +12,39 @@ const AudioPlayer = () => {
     const [duration, setDuration] = useState(0);
     const [loopEnabled, setLoopEnabled] = useState(false);
     const playlist = [
+        {title: "CHEPPAMMA CHEPPAMMA",cast:"K. S. Chithra,Sirivennela Seetharama Shastry",image:"imagep111.jpg",src: "songp12.mp3",lyrics:`cheppamma cheppamma cheppamma cheppamma cheppesey antondi o aaraatam
+tappamma tappamma tappamma tappamma aagammaa antondi o momaatam
+nuvvante mari adedo idi aneddaamane unnadi
+palaana ani teleede mari elaa neeku cheppaalani
+cheppamma cheppamma cheppamma cheppamma cheppesey antondi o aaraatam
+tappamma tappamma tappamma tappamma aagammaa antondi o momaatam
+
+venta tarumutunnaave enti enta tappukunna
+kantikeduru padataave enti etu choosina
+chempa gilli potaave enti gaali velitona
+anta godava pedataave enti niddarotu unna
+asalu neeku aa chorave enti teliyakadugutunna
+ontiga undaneeventi okka nimishamaina
+idem allari bharinchedela antu ninnela kasaranu
+nuvvem chesina baaguntundani nijam neekela cheppanu
+cheppamma cheppamma cheppamma cheppamma cheppesey antondi o aaraatam
+tappamma tappamma tappamma tappamma aagammaa antondi o momaatam
+
+nuvvu navvutunte ento choodamucchataina
+edipinchabuddavutundi ettaagaina
+muddugaane untaavemo mooti muduchukunna
+kaasta kassumanave enta kavvinchina
+ninnu recchagodutu nene odipotu unna
+leniponi ukroshamto udukettana
+idem choodaka maha posuga eto nuvvu choostoo unnaa
+adento mari aa pogare nacchi padi chastunna ayyo raamaa
+cheppamma cheppamma cheppamma cheppamma cheppesey antondi o aaraatam
+tappamma tappamma tappamma tappamma aagammaa antondi o momaatam
+nuvvante mari adedo idi aneddaamane unnadi
+palaana ani teleede mari elaa neeku cheppaalani
+
+cheppamma cheppamma cheppamma i love you cheppesey antondi o aaraatam
+i love you i love you i love you i love you i love you i love you`}
         {title: "EKKADA EKKADA",cast:" S P Charan, Harini",image:"imagep111.jpg",src: "songp11.mp3",lyrics:`
 Ekkada.. ekkada.. ekkada.. undo taarakaa
 
