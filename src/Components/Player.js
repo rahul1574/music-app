@@ -44,7 +44,7 @@ nuvvante mari adedo idi aneddaamane unnadi
 palaana ani teleede mari elaa neeku cheppaalani
 
 cheppamma cheppamma cheppamma i love you cheppesey antondi o aaraatam
-i love you i love you i love you i love you i love you i love you`}
+i love you i love you i love you i love you i love you i love you...`},
         {title: "EKKADA EKKADA",cast:" S P Charan, Harini",image:"imagep111.jpg",src: "songp11.mp3",lyrics:`
 Ekkada.. ekkada.. ekkada.. undo taarakaa
 
