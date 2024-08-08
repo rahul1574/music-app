@@ -153,8 +153,8 @@ aachookee andumaa
 
 Akkada.. akkada.. akkada.. undaa tarakaa
 
-Adigo.. thellani mabbula madhyana.. daagee daagakaa`,
-            title: "HOSAAHOREY",cast:"Ananth Sreeram,K.K., Lesle Lewis", image:"image5.jpeg",src: "song6.mp3",lyrics:`
+Adigo.. thellani mabbula madhyana.. daagee daagakaa`},
+        { title: "HOSAAHOREY",cast:"Ananth Sreeram,K.K., Lesle Lewis", image:"image5.jpeg",src: "song6.mp3",lyrics:`
         Hosahare..... Hosahore.....
         Saadhinche sattuva unnadhi gundelalo..
         Preminche mettani manasula moolalalo...
